@@ -15,7 +15,7 @@ public class TestUtil extends TestBase {
 
 	public static String checkOutDate = "2019-05-28";
 	public static String roomType = "Double room";
-	public static String expectedPageTitle = "trivago.in�- Compare hotel prices worldwide";
+	public static String expectedPageTitle = "trivago.in - Compare hotel prices worldwide";
 	public static int LONG_WAIT = 180;
 	public static String city= "Barcelona";
 

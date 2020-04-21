@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.listeners.Listener"/>
+  </listeners>
+  <test thread-count="4" name="Test(failed)">
     <classes>
-      <class name="com.trivago.tests.BookingPageTest">
+      <class name="com.trivago.tests.SearchHotelTest">
         <methods>
-          <include name="printdetails"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="searchHotels"/>
         </methods>
-      </class> <!-- com.trivago.tests.BookingPageTest -->
+      </class> <!-- com.trivago.tests.SearchHotelTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

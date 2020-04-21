@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.trivago.tests.BookingPageTest">
+      <class name="com.trivago.tests.SearchHotelTest">
         <methods>
-          <include name="printdetails"/>
           <include name="setUp"/>
+          <include name="searchHotels"/>
         </methods>
-      </class> <!-- com.trivago.tests.BookingPageTest -->
+      </class> <!-- com.trivago.tests.SearchHotelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
